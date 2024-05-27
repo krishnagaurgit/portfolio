@@ -7,6 +7,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     background: #333333;
+   
 }
 
 a {
@@ -263,7 +264,7 @@ h6 {
 .nav-menu .menu-active > a {
     color: #ffffff;
     /* font-weight: bold; */
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 .nav-menu ul {
@@ -565,15 +566,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /* ============================= */
-/* ------- Experience CSS ------ */
+/* ------- EducationalQualifications CSS ------ */
 /* ============================= */
 
-.experience {
+.EducationalQualifications {
     position: relative;
     padding: 0;
 }
 
-.experience .section-header p {
+.EducationalQualifications .section-header p {
     margin:0;
 }
 .exp-column{
@@ -582,13 +583,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-radius: 10px;
 }
 
-.experience .exp-column {
+.EducationalQualifications .exp-column {
     margin-top: 30px;
     padding: 25px 30px;
     background: #ffffff;
 }
 
-.experience .exp-column::before {
+.EducationalQualifications .exp-column::before {
     position: absolute;
     content: "";
     height: 3px;
@@ -598,7 +599,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: #3631cb;
 }
 
-.experience .exp-column::after {
+.EducationalQualifications .exp-column::after {
     position: absolute;
     content: "";
     height: 3px;
@@ -608,17 +609,17 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: #3631cb;
 }
 
-.experience .exp-column:hover::before {
+.EducationalQualifications .exp-column:hover::before {
     transition: .3s;
     right: 15px;
 }
 
-.experience .exp-column:hover::after {
+.EducationalQualifications .exp-column:hover::after {
     transition: .3s;
     left: 15px;
 }
 
-.experience .exp-date {
+.EducationalQualifications .exp-date {
     margin-bottom: 5px;
     color: #666666;
     font-size: 16px;
@@ -626,19 +627,19 @@ body.mobile-nav-active #mobile-nav-toggle {
     letter-spacing: 2px;
 }
 
-.experience .exp-date span {
+.EducationalQualifications .exp-date span {
     font-weight: 400;
     font-style: italic;
 }
 
-.experience .exp-company {
+.EducationalQualifications .exp-company {
     margin-bottom: 0;
     color: #AF9483;
     font-size: 18px;
     font-weight: 400;
 }
 
-.experience .exp-designation {
+.EducationalQualifications .exp-designation {
     margin-bottom: 10px;
     color: #999999;
     font-size: 16px;
@@ -646,103 +647,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-style: italic;
 }
 
-.experience .exp-detail {
+.EducationalQualifications .exp-detail {
     margin-bottom: 0;
 }
-
-
-
-/* ============================= */
-/* -------- Services CSS ------- */
-/* ============================= */
-
-.services {
-    padding: 60px 0;
-    text-align: center;
-    background: #ffffff;
-}
-
-.services .section-header {
-    text-align: left;
-}
-
-.services .section-header p {
-    margin:0;
-}
-
-.services .single-service {
-    position: relative;
-    text-align: center;
-    font-weight: 300;
-    margin:30px 0 0;
-    padding: 25px 15px 30px 15px;
-    background: #e9ecef;
-}
-
-.services .single-service::before {
-    position: absolute;
-    content: "";
-    height: 3px;
-    top: 0;
-    right: 100%;
-    left: 0;
-    background: #AF9483;
-}
-
-.services .single-service::after {
-    position: absolute;
-    content: "";
-    height: 3px;
-    bottom: 0;
-    right: 0;
-    left: 100%;
-    background: #AF9483;
-}
-
-.services .single-service:hover::before {
-    transition: .3s;
-    right: 0;
-}
-
-.services .single-service:hover::after {
-    transition: .3s;
-    left: 0;
-}
-
-.services .single-service .service-icon {
-    font-size: 60px;
-    line-height: 60px;
-    margin: 0 auto 20px;
-    text-align: center;
-    width: 120px;
-    color: #AF9483;
-}
-
-.services .single-service h4,
-.services .single-service h4 a {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
-.services .single-service p {
-    margin-bottom: 0;
-}
-
-.services .single-service span {
-    position: absolute;
-    height: 100%;
-    width: 0;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    transition: 0.5s;
-}
-
-
 
 /* ============================= */
 /* -------- Counter CSS -------- */
@@ -815,6 +722,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: relative;
     clear: both;
     padding: 60px 0 30px 0;
+    filter: drop-shadow(2px 1px 3px pink )
 }
 
 .portfolio .section-header p {
@@ -926,6 +834,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-transform: capitalize;
     background: rgba(256, 256, 256, .8);
     border-radius: 0;
+   
 }
 
 .portfolio .portfolio-item figure .portfolio-title span {
@@ -964,6 +873,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 40px 0 60px 0;
     text-align: center;
     position: relative;
+   
 }
 
 .testimonials .container {
@@ -1050,6 +960,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .contact {
     position: relative;
     padding: 60px 0;
+    filter: drop-shadow(1px 0px 12px gray )
 }
 
 .contact .contact-info p {
@@ -1150,6 +1061,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 30px 0;
     text-align: center;
     background: #222222;
+    filter: drop-shadow(1px 0px 12px white )
 }
 
 .footer .copyright p {
@@ -1161,3 +1073,4 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer .copyright p:last-child {
     margin: 0;
 }
+.col-md-12 {filter: drop-shadow(1px 0px 12px white )}
